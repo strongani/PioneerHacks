@@ -145,7 +145,7 @@ def display_instances(image, boxes, masks, class_ids, class_names,
             caption = captions[i]
         ax.text(x1, y1 + 8, caption,
                 color='w', size=11, backgroundcolor="none")
-
+        
         # Mask
         mask = masks[:, :, i]
         if show_mask:
@@ -163,7 +163,10 @@ def display_instances(image, boxes, masks, class_ids, class_names,
             p = Polygon(verts, facecolor="none", edgecolor=color)
             ax.add_patch(p)
     ax.imshow(masked_image.astype(np.uint8))
+   
+    
     if auto_show:
+        plt.savefig(r'C:\Users\rocks\Documents\PioneerHacks\images\visual.jpg')
         plt.show()
 
 

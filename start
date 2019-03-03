@@ -1,0 +1,17 @@
+{
+  "name": "myimage.png",
+  "bucket": "pioneerhacks-4305c.appspot.com",
+  "generation": "1551560189434776",
+  "metageneration": "1",
+  "contentType": "application/octet-stream",
+  "timeCreated": "2019-03-02T20:56:29.434Z",
+  "updated": "2019-03-02T20:56:29.434Z",
+  "storageClass": "STANDARD",
+  "size": "28060808",
+  "md5Hash": "Hs8Jf5P5N6qT7rfce4SwSQ==",
+  "contentEncoding": "identity",
+  "contentDisposition": "inline; filename*=utf-8''myimage.png",
+  "crc32c": "1FZTrw==",
+  "etag": "CJi3wY+s5OACEAE=",
+  "downloadTokens": "51687d41-172a-4840-8e82-a8ca70e4c107"
+}
